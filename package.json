@@ -1,0 +1,17 @@
+{
+  "name": "hatena-rss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/qoAopx/hatena-rss.git",
+  "author": "qoAop <okutsu@pej.jp>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
