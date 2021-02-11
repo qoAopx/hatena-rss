@@ -9,9 +9,10 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "dependencies": {
+    "cron": "^1.8.2",
     "express": "^4.17.1",
     "request": "^2.88.2"
   }
