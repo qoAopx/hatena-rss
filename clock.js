@@ -1,6 +1,6 @@
 var CronJob = require('cron').CronJob;
 new CronJob({
-	cronTime: "30 * * * * *",//30 seconds after every minute
+	cronTime: "0 0 * * * *",//every hour
 	onTick: () => {
 		console.log(new Date());
 	},
