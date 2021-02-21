@@ -16,7 +16,7 @@ const get_rss = function (url) {
 };
 
 const job = new CronJob({
-	cronTime: "0 */10 * * * *",//every hour
+	cronTime: "0 0 */6 * * *",//every 6 hour
 	onTick: () => {
 		console.log(new Date());
 		get_rss('https://hatena-rss.herokuapp.com/');
